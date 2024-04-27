@@ -18,7 +18,7 @@ p
 
 body
 {
-    font-family: "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-family: "Fira Mono", "Consolas", "Roboto Mono", "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.6px;
@@ -174,7 +174,7 @@ a
 .read-more
 {
     padding: 0 4px;
-    color: var(--font-color-0);   
+    color: var(--font-color-0);
 }
 .read-more:before,
 .read-more:after
@@ -386,4 +386,27 @@ a
 .tags .fix,.tags .bugfix {
     --color: #FF4772;
     color: #fff
+}
+
+ul.footer-links{
+    font-size: 18px;
+    margin: 0 0 30px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+ul.footer-links > li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+ul.footer-links > li > a {
+    transition: color ease-in-out .2s;
+}
+
+div.footer span.love-icon{
+    font-family: 'Dancing Script', Fira Mono, Consolas, Roboto Mono, Microsoft Yahei, PingFang SC, Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, HeitiSC, WenQuanYi Micro Hei, sans-serif !important;
+    color: rgb(255, 102, 102);
 }
